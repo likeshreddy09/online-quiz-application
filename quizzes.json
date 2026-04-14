@@ -1,0 +1,128 @@
+// Quiz Data JSON
+// This file contains sample quiz questions data
+
+const quizzesData = [
+    {
+        id: 1,
+        title: 'General Knowledge',
+        description: 'Test your general knowledge across various topics',
+        category: 'General',
+        questions: 20,
+        difficulty: 'Medium',
+        passingScore: 60,
+        timeLimit: 30,
+        attempts: 1245,
+        rating: 4.5
+    },
+    {
+        id: 2,
+        title: 'JavaScript Basics',
+        description: 'Master the fundamentals of JavaScript programming',
+        category: 'Programming',
+        questions: 25,
+        difficulty: 'Intermediate',
+        passingScore: 70,
+        timeLimit: 45,
+        attempts: 892,
+        rating: 4.7
+    },
+    {
+        id: 3,
+        title: 'World History',
+        description: 'Explore important events and figures in world history',
+        category: 'History',
+        questions: 30,
+        difficulty: 'Easy',
+        passingScore: 55,
+        timeLimit: 40,
+        attempts: 567,
+        rating: 4.3
+    },
+    {
+        id: 4,
+        title: 'English Grammar',
+        description: 'Perfect your English grammar and language skills',
+        category: 'Language',
+        questions: 20,
+        difficulty: 'Medium',
+        passingScore: 65,
+        timeLimit: 35,
+        attempts: 734,
+        rating: 4.6
+    },
+    {
+        id: 5,
+        title: 'Chemistry Fundamentals',
+        description: 'Learn basic concepts of chemistry',
+        category: 'Science',
+        questions: 25,
+        difficulty: 'Intermediate',
+        passingScore: 70,
+        timeLimit: 50,
+        attempts: 612,
+        rating: 4.4
+    },
+    {
+        id: 6,
+        title: 'Biology Basics',
+        description: 'Understand living organisms and biological processes',
+        category: 'Science',
+        questions: 22,
+        difficulty: 'Easy',
+        passingScore: 60,
+        timeLimit: 40,
+        attempts: 891,
+        rating: 4.5
+    },
+    {
+        id: 7,
+        title: 'Python Programming',
+        description: 'Learn Python programming from basics to advanced',
+        category: 'Programming',
+        questions: 30,
+        difficulty: 'Intermediate',
+        passingScore: 70,
+        timeLimit: 60,
+        attempts: 1005,
+        rating: 4.8
+    },
+    {
+        id: 8,
+        title: 'World Capitals',
+        description: 'Test your knowledge of world capitals and geography',
+        category: 'Geography',
+        questions: 20,
+        difficulty: 'Easy',
+        passingScore: 60,
+        timeLimit: 25,
+        attempts: 1432,
+        rating: 4.6
+    },
+    {
+        id: 9,
+        title: 'Mathematics Advanced',
+        description: 'Challenge yourself with advanced math problems',
+        category: 'Mathematics',
+        questions: 25,
+        difficulty: 'Hard',
+        passingScore: 75,
+        timeLimit: 60,
+        attempts: 445,
+        rating: 4.2
+    },
+    {
+        id: 10,
+        title: 'Art & Culture',
+        description: 'Explore famous artworks and cultural movements',
+        category: 'Culture',
+        questions: 20,
+        difficulty: 'Medium',
+        passingScore: 65,
+        timeLimit: 30,
+        attempts: 567,
+        rating: 4.4
+    }
+];
+
+// Make data available globally
+window.quizzesData = quizzesData;
